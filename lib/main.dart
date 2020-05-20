@@ -8,9 +8,10 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var materialApp = MaterialApp(
+   // var materialApp = MaterialApp(  ทำเกินแน่
+     return MaterialApp(
      home: MyService(),
     );
-    return materialApp;
+    
   }
 }
